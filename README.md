@@ -34,7 +34,7 @@ Integrate SHAP values into the loan approval workflow. For denied or high-risk a
 - **Business value**: Transparent, auditable decisions for regulatory compliance and risk management
 
 ## Notebook
-[credit_risk_xgboost_shap.ipynb](credit_risk_xgboost_shap.ipynb)
+[credit_risk_xgboost_shap.ipynb](credit_risk_xgboost_sha.ipynb)
 
 ## How to Run
 1. Download `credit_risk_dataset.csv` from [Kaggle](https://www.kaggle.com/datasets/laotse/credit-risk-dataset)
