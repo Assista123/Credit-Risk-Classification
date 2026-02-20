@@ -44,5 +44,5 @@ Integrate SHAP values into the loan approval workflow. For denied or high-risk a
 4. Run all cells
 
 ## Visuals
-![SHAP Summary Plot](images/shap_summary.png)  
-![SHAP Force Plot Example](images/shap_force_example.png)
+![SHAP Summary Plot](shap_summary.jpg) 
+![SHAP Force Plot Example](shap_force_example.jpg)
