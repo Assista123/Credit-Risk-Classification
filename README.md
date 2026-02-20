@@ -28,7 +28,7 @@ SHAP (SHapley Additive exPlanations) provides transparent, feature-level insight
 
 **Business Recommendation**:  
 Integrate SHAP values into the loan approval workflow. For denied or high-risk applications, generate clear explanations (e.g., "Application flagged due to high proposed interest rate and elevated loan-to-income ratio."). This promotes transparency for applicants, supports credit officer reviews, and aligns with regulatory requirements for explainable AI in lending.
-
+Install via pip install -r requirements.txt
 ## Key Results
 - **Top SHAP features**: loan_int_rate, loan_percent_income, loan_grade, cb_person_default_on_file
 - **Business value**: Transparent, auditable decisions for regulatory compliance and risk management
@@ -39,9 +39,11 @@ Integrate SHAP values into the loan approval workflow. For denied or high-risk a
 ## How to Run
 1. Download `credit_risk_dataset.csv` from [Kaggle](https://www.kaggle.com/datasets/laotse/credit-risk-dataset)
 2. Open `credit_risk_xgboost_shap.ipynb` in Jupyter Notebook or Google Colab
-3. Install dependencies (if needed):  
+3. Install via pip install -r requirements.txt
+4. Install dependencies (if needed):  
    `pip install pandas numpy scikit-learn imbalanced-learn lightgbm xgboost shap matplotlib seaborn`
-4. Run all cells
+5. Run all cells
+Note: Use a virtual environment or Colab to avoid dependency conflicts. 
 
 ## Visuals
 ![SHAP Summary Plot](shap_summary.jpg) 
